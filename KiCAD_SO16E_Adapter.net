@@ -1,0 +1,54 @@
+# EESchema Netlist Version 1.1 created  Sat May 10 21:52:50 2014
+(
+ ( /536E81B3 SM1206 C1 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /536E7DD8 SIL-8 P1 CONN_8
+  ( 1 /CKA )
+  ( 2 /EnableA )
+  ( 3 /Q1A )
+  ( 4 /Q2A )
+  ( 5 /Q3A )
+  ( 6 /Q4A )
+  ( 7 /ResetA )
+  ( 8 GND )
+ )
+ ( /536E7DCF SIL-8 P2 CONN_8
+  ( 1 VCC )
+  ( 2 /ResetB )
+  ( 3 /Q4B )
+  ( 4 /Q3B )
+  ( 5 /Q2B )
+  ( 6 /Q1B )
+  ( 7 /EnableB )
+  ( 8 /CKB )
+ )
+ ( /536E7D33 SO16E U1 4520
+  ( 1 /CKA )
+  ( 2 /EnableA )
+  ( 3 /Q1A )
+  ( 4 /Q2A )
+  ( 5 /Q3A )
+  ( 6 /Q4A )
+  ( 7 /ResetA )
+  ( 8 GND )
+  ( 9 /CKB )
+  ( 10 /EnableB )
+  ( 11 /Q1B )
+  ( 12 /Q2B )
+  ( 13 /Q3B )
+  ( 14 /Q4B )
+  ( 15 /ResetB )
+  ( 16 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
